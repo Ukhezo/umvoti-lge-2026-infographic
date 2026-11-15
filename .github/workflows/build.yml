@@ -1,0 +1,22 @@
+name: Check data and build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate data and build pages
+        run: python tools/build.py
+
+      - name: Make sure committed pages are up to date
+        run: git diff --exit-code -- site/ || (echo "Pages are out of date. Run: python tools/build.py" && exit 1)

@@ -1,0 +1,50 @@
+{
+  "municipality": "Umvoti Local Municipality",
+  "code": "KZN245",
+  "district": "uMzinyathi District, KwaZulu-Natal",
+  "election": "2026 Local Government Elections",
+  "source": "Electoral Commission of South Africa (IEC) results via ESP.info",
+  "data_as_at": "2026-11-06",
+  "registered_voters": 65647,
+  "votes_cast": 37016,
+  "iec_reported_turnout_pct": 56.6,
+  "ward_ballot_valid_votes": 36517,
+  "seats_needed_for_majority": 14,
+  "parties": [
+    {"short": "IFP", "name": "Inkatha Freedom Party", "ward_votes": 12382, "ward_seats": 8, "pr_seats": 1, "color": "#0B2550"},
+    {"short": "ANC", "name": "African National Congress", "ward_votes": 11061, "ward_seats": 2, "pr_seats": 6, "color": "#2F6FB5"},
+    {"short": "MK", "name": "uMkhonto weSizwe", "ward_votes": 9875, "ward_seats": 3, "pr_seats": 5, "color": "#8FB3DE"},
+    {"short": "DA", "name": "Democratic Alliance", "ward_votes": 1552, "ward_seats": 1, "pr_seats": 0, "color": "#E0A21B"},
+    {"short": "ABC", "name": "Abantu Batho Congress", "ward_votes": 907, "ward_seats": 0, "pr_seats": 1, "color": "#7A8594"}
+  ],
+  "other_parties": [
+    {"short": "EFF", "ward_votes": 180},
+    {"short": "NFP", "ward_votes": 133},
+    {"short": "A.B.C.D.", "ward_votes": 96},
+    {"short": "JEP", "ward_votes": 93},
+    {"short": "PA", "ward_votes": 67},
+    {"short": "SACP", "ward_votes": 62},
+    {"short": "MAYIBUYE", "ward_votes": 59},
+    {"short": "ATM", "ward_votes": 50}
+  ],
+  "councillors_note": "Names compiled from a public list; verify against official IEC results.",
+  "councillors": {
+    "IFP": [
+      ["Bonokuhle Mhlongo", "Ward 1"], ["Buhlebenkosi Mngadi", "Ward 2"], ["Attridge Ngcobo", "Ward 3"],
+      ["Silam Zondi", "Ward 4"], ["Khulekani Ngobese", "Ward 8"], ["Mbongiseni Dlamini", "Ward 11", "Former Deputy Mayor"],
+      ["Mlungisi Bhengu", "Ward 13"], ["Emmanuel Mncube", "Ward 14"], ["Gabriel Malembe", "PR 1", "Former Mayor"]
+    ],
+    "ANC": [
+      ["Bongumusa Sithole", "Ward 5"], ["Sifiso Chonco", "Ward 12"], ["Nonhlanhla Nene", "PR 1"],
+      ["Thamsanqa Ngubane", "PR 2"], ["Ntombi Ngubane", "PR 3", "Former Speaker"], ["Thulisile Gwala", "PR 4"],
+      ["Zama Ndlovu", "PR 5"], ["Zwakushiwo Ndlovu", "PR 6"]
+    ],
+    "MK": [
+      ["Selby Bhengu", "Ward 6"], ["Velaphi Ndlovu", "Ward 7"], ["Ruth Govender", "Ward 9"],
+      ["Mshiyeni Dube", "PR 1"], ["Phelelani Ngidi / Dlamini", "PR 2"], ["Msawenkosi Phungula", "PR 3"],
+      ["Bhekisisa Madonsela", "PR 4"], ["Nhlamulo Nukeri", "PR 5"]
+    ],
+    "DA": [["Stella Cockburn", "Ward 10"]],
+    "ABC": [["Martin Swanlow", "PR 1"]]
+  }
+}
