@@ -19,4 +19,5 @@ jobs:
         run: python tools/build.py
 
       - name: Make sure committed pages are up to date
-        run: git diff --exit-code -- site/ || (echo "Pages are out of date. Run: python tools/build.py" && exit 1)
+        run: |
+          git diff --exit-code -- site/ || (echo "Pages are out of date. Run python tools/build.py" && exit 1)
